@@ -76,7 +76,6 @@
                 &kp A
                 &kp B
                 //NFC
-                &kp D
             >;
 
         };
@@ -93,7 +92,6 @@
                 &mkp RCLK
                 &trans
                 //NFC
-                &trans
             >;
         };
 
