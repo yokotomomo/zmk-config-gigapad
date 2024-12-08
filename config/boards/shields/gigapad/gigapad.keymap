@@ -73,11 +73,11 @@
                 &none
                 &Rs
                 //クリック
-                &mkp LCLK
-                &mo 1
-                //NFC
                 &kp A
                 &kp B
+                //NFC
+                &kp C
+                &kp D
             >;
 
         };
