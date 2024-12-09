@@ -14,7 +14,9 @@
                 <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
                 <&xiao_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
                 <&xiao_d 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
-                <&xiao_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+                <&xiao_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
+                <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
+                <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         };
 };
 
@@ -25,7 +27,7 @@
                         group1 {
                             psels = <NRF_PSEL(SPIM_SCK, 1, 13)>,
                                 <NRF_PSEL(SPIM_MOSI, 1, 15)>,
-                                <NRF_PSEL(SPIM_MISO, 1, 14)>;
+                                <NRF_PSEL(SPIM_MISO, 1, 15)>;
                         };
                     };
                 
@@ -33,7 +35,7 @@
                         group1 {
                             psels = <NRF_PSEL(SPIM_SCK, 1, 13)>, /*Sclk*/
                                 <NRF_PSEL(SPIM_MOSI, 1, 15)>,
-                                <NRF_PSEL(SPIM_MISO, 1, 14)>;/*SDIO*/
+                                <NRF_PSEL(SPIM_MISO, 1, 15)>;/*SDIO*/
                             low-power-enable;
                         };
                     };
@@ -52,7 +54,7 @@
                 compatible = "pixart,pmw3610";
                 reg = <0>;
                 spi-max-frequency = <2000000>;
-                irq-gpios = <&gpio0 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; /*motion */
+                irq-gpios = <&gpio1 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; /*motion */
         
                 /*   optional features   */
                 // snipe-layers = <1>;
