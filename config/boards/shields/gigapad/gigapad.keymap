@@ -73,11 +73,11 @@
                 &none
                 &Rs
                 //クリック
-                &mo 1
                 &mkp RCLK
+                &mo 1
                 //NFC
-                &kp C
-                &kp D
+                &mkp MB4
+                &mkp MB5
             >;
 
         };
@@ -91,10 +91,10 @@
                 &trans
                 &trans
                 //クリック
-                &trans
                 &mkp LCLK
-                //NFC
                 &trans
+                //NFC
+               &trans
                 &trans
             >;
         };
