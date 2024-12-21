@@ -12,7 +12,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
-            tap-ms = <10>;
+            tap-ms = <20>;
             bindings = 
                 <&macro_press &msc SCRL_UP>,
                 <&macro_release &msc SCRL_UP>;
@@ -22,7 +22,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
-            tap-ms = <10>;
+            tap-ms = <20>;
             bindings = 
                 <&macro_press &msc SCRL_DOWN>,
                 <&macro_release &msc SCRL_DOWN>;
@@ -32,7 +32,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
-            tap-ms = <10>;
+            tap-ms = <20>;
             bindings = 
                 <&macro_press &msc SCRL_LEFT>,
                 <&macro_release &msc SCRL_LEFT>;
@@ -42,7 +42,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
-            tap-ms = <10>;
+            tap-ms = <20>;
             bindings = 
                 <&macro_press &msc SCRL_RIGHT>,
                 <&macro_release &msc SCRL_RIGHT>;
