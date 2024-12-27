@@ -76,7 +76,7 @@
                 &none
                 &mkp LCLK
                 //NFC
-                &mkp MB4
+                &bootloader
                 &mkp MB5
             >;
 
