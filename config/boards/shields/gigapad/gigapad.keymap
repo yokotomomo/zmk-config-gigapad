@@ -73,8 +73,8 @@
                 &none
                 &Rs
                 //クリック
-                &mkp RCLK
-                &mo 1
+                &none
+                &mkp LCLK
                 //NFC
                 &mkp MB4
                 &mkp MB5
@@ -91,7 +91,7 @@
                 &trans
                 &trans
                 //クリック
-                &mkp LCLK
+                &trans
                 &trans
                 //NFC
                &trans
